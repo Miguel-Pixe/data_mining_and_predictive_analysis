@@ -1,8 +1,5 @@
 # 🩺 Diabetes | Data Mining e Análise Preditiva
 
-🔗 **Repositório:**  
-https://github.com/Miguel-Pixe/data_mining_and_predictive_analysis
-
 > Aplicação de técnicas de Data Mining e Machine Learning para análise de dados clínicos e comparação de modelos preditivos voltados à classificação de diabetes.
 
 ---

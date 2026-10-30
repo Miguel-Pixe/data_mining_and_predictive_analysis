@@ -1,147 +1,202 @@
-Diabetes | Data Mining e Análise Preditiva(h1)
+# 🩺 Diabetes | Data Mining e Análise Preditiva
 
-→ Visão geral
+🔗 **Repositório:**  
+https://github.com/Miguel-Pixe/data_mining_and_predictive_analysis
 
-Pipeline
+> Aplicação de técnicas de Data Mining e Machine Learning para análise de dados clínicos e comparação de modelos preditivos voltados à classificação de diabetes.
 
-Base de pacientes → Tratamento e exploração dos dados → Treinamento dos modelos → Comparação de desempenho → Seleção do melhor modelo → Interpretação dos resultados
+---
 
-→ Pipeline
+## 📷 Visão Geral
 
-Problema de negócio
+➡️ Visão Geral
 
-Como utilizar características clínicas de pacientes para identificar padrões associados ao diabetes e avaliar qual modelo preditivo apresenta melhor desempenho para apoiar análises futuras?
+---
 
-Objetivo
+## 🔄 Pipeline
 
-Analisar uma base de dados de pacientes com possível diabetes, aplicando técnicas de mineração de dados e aprendizado de máquina para comparar modelos preditivos e identificar a abordagem com melhor capacidade de classificação.
+**Base de pacientes → Tratamento dos dados → Análise exploratória → Treinamento dos modelos → Avaliação de desempenho → Insights**
 
-Ferramentas utilizadas
-Python
-Pandas
-NumPy
-Scikit-Learn
-Matplotlib
-Seaborn
-Jupyter Notebook
-GitHub
-Perguntas respondidas
-Exploração dos dados
-Como as variáveis clínicas estão distribuídas?
-Existem padrões que diferenciam pacientes com e sem diabetes?
-Há variáveis mais relevantes para a classificação?
-Modelagem Preditiva
-Qual modelo apresenta melhor desempenho?
-Qual algoritmo equilibra melhor precisão e capacidade de generalização?
-Como os resultados variam entre os modelos avaliados?
-Análises realizadas
-Mineração de Dados
-Inspeção da qualidade dos dados.
-Avaliação das variáveis disponíveis.
-Identificação de padrões iniciais.
-Preparação dos dados para modelagem.
+➡️ Pipeline
 
-→ Distribuições
+---
 
-→ Correlação
+## 🎯 Problema de Negócio
 
-→ Boxplots
+Como utilizar características clínicas de pacientes para identificar padrões associados ao diabetes e avaliar quais modelos preditivos apresentam melhor desempenho na classificação dos casos?
 
-Modelagem Preditiva
-Treinamento dos algoritmos.
-Comparação das métricas obtidas.
-Avaliação do desempenho preditivo.
-Escolha do melhor modelo para o problema proposto.
+---
 
-→ Modelos
+## 📌 Objetivo
 
-→ Métricas
+Analisar dados de pacientes utilizando técnicas de mineração de dados e aprendizado de máquina para identificar padrões relevantes e comparar o desempenho de diferentes modelos de classificação.
 
-Principais achados
-1. Os dados apresentam padrões relevantes?
+---
 
-Resultado: as variáveis clínicas analisadas demonstram diferenças entre grupos de pacientes.
+## 🛠️ Ferramentas Utilizadas
 
-Interpretação: existe potencial para utilização de técnicas de aprendizado de máquina na classificação.
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+- GitHub
 
-Proposta: aprofundar a análise das variáveis com maior influência no resultado final.
+---
 
-→ Variáveis Importantes
+## ❓ Perguntas Respondidas
 
-2. O aprendizado de máquina consegue identificar pacientes de risco?
+### Exploração dos Dados
 
-Resultado: os modelos treinados apresentaram capacidade de distinguir diferentes perfis de pacientes.
+- Como as variáveis clínicas estão distribuídas?
+- Existem diferenças relevantes entre pacientes com e sem diabetes?
+- Quais atributos possuem maior influência nos resultados?
 
-Interpretação: a presença de padrões nos dados permite construir classificadores úteis para apoio analítico.
+### Modelagem Preditiva
 
-Proposta: comparar continuamente diferentes algoritmos e ajustes de parâmetros para melhoria do desempenho.
+- Qual modelo apresentou melhor desempenho?
+- Qual algoritmo apresentou melhor equilíbrio entre precisão e generalização?
+- Como as métricas variam entre os modelos testados?
 
-→ Matriz de Confusão
+---
 
-3. Existe um modelo superior?
+## 📊 Análises Realizadas
 
-Resultado: os modelos foram comparados utilizando métricas de desempenho para identificar a alternativa mais adequada ao conjunto de dados.
+### Data Mining
 
-Interpretação: a escolha não deve depender apenas da acurácia, mas também da capacidade de generalização e estabilidade.
+- Inspeção da qualidade dos dados
+- Tratamento e preparação das variáveis
+- Análise exploratória
+- Identificação de padrões iniciais
 
-Proposta: validar os resultados em novas amostras antes de qualquer utilização prática.
+➡️ Distribuições
 
-→ Comparação dos Modelos
+➡️ Correlação
 
-→ Curva ROC
+➡️ Boxplots
 
-Storytelling
-Etapa 1: Compreensão do problema
+### Modelagem Preditiva
 
-O projeto parte da necessidade de compreender padrões relacionados ao diabetes em uma base de pacientes.
+- Treinamento dos algoritmos
+- Comparação de desempenho
+- Avaliação das métricas
+- Seleção do melhor modelo
 
-Etapa 2: Exploração dos dados
+➡️ Modelos
 
-Os dados são analisados para identificar características relevantes e possíveis associações.
+➡️ Métricas
 
-→ EDA
+---
 
-Etapa 3: Construção dos modelos
+## 🔍 Principais Achados
 
-Diferentes algoritmos são treinados e comparados.
+### 1. Os dados apresentam padrões relevantes?
 
-→ Treinamento
+**Resultado:** foram identificadas diferenças entre grupos de pacientes nas variáveis analisadas.
 
-Etapa 4: Avaliação dos resultados
+**Interpretação:** os dados apresentam potencial para utilização de técnicas de classificação.
 
-As métricas obtidas direcionam a escolha do modelo mais adequado.
+**Proposta:** aprofundar a investigação das variáveis com maior influência nas previsões.
 
-→ Resultados
+➡️ Variáveis Importantes
 
-Etapa 5: Geração de insights
+---
 
-Os resultados permitem compreender melhor o comportamento dos dados e o potencial preditivo das variáveis analisadas.
+### 2. Os modelos conseguem identificar pacientes de risco?
 
-→ Insights
+**Resultado:** os algoritmos foram capazes de diferenciar perfis distintos de pacientes.
 
-Recomendações e próximos passos
-Realizar engenharia de atributos para aumentar o poder explicativo dos dados.
-Testar novos algoritmos e técnicas de otimização.
-Aplicar validação cruzada para aumentar a robustez da avaliação.
-Investigar técnicas de interpretabilidade dos modelos.
-Avaliar o desempenho em bases externas antes de qualquer aplicação operacional.
-Contribuição do projeto
+**Interpretação:** existe informação suficiente nos dados para apoiar modelos preditivos.
 
-O projeto demonstra a aplicação prática de técnicas de Data Mining, Machine Learning e Análise Preditiva, transformando dados clínicos em informações capazes de apoiar processos analíticos e estudos sobre classificação de pacientes.
+**Proposta:** avaliar novos ajustes e estratégias para melhoria do desempenho.
 
-Competências Demonstradas
-Data Mining
-Análise Exploratória de Dados (EDA)
-Machine Learning
-Classificação Supervisionada
-Avaliação de Modelos
-Estatística Aplicada
-Python
-Scikit-Learn
-Visualização de Dados
-Storytelling Analítico
-Autor
+➡️ Matriz de Confusão
 
-Miguel Pixe
+---
 
-Projeto de portfólio voltado à comparação de modelos preditivos em uma base de pacientes com possível diabetes.
+### 3. Existe um modelo com desempenho superior?
+
+**Resultado:** os modelos foram comparados com base em métricas de classificação.
+
+**Interpretação:** a escolha do melhor modelo depende não apenas da acurácia, mas também da consistência dos resultados.
+
+**Proposta:** validar o desempenho utilizando novas amostras e diferentes cenários.
+
+➡️ Comparação dos Modelos
+
+➡️ Curva ROC
+
+---
+
+## 📖 Storytelling
+
+### Etapa 1: Compreensão do Problema
+
+O projeto inicia com a definição do problema e entendimento do contexto dos dados.
+
+### Etapa 2: Exploração dos Dados
+
+Investigação das variáveis para identificação de padrões, tendências e possíveis relações.
+
+➡️ EDA
+
+### Etapa 3: Construção dos Modelos
+
+Aplicação e treinamento de diferentes algoritmos de Machine Learning.
+
+➡️ Treinamento
+
+### Etapa 4: Avaliação dos Resultados
+
+Comparação do desempenho utilizando métricas de classificação.
+
+➡️ Resultados
+
+### Etapa 5: Geração de Insights
+
+Transformação dos resultados obtidos em conclusões e recomendações analíticas.
+
+➡️ Insights
+
+---
+
+## 🚀 Recomendações e Próximos Passos
+
+1. Realizar engenharia de atributos para ampliar o potencial explicativo dos dados.
+2. Testar novos algoritmos e técnicas de otimização.
+3. Aplicar validação cruzada para aumentar a robustez da avaliação.
+4. Investigar métodos de interpretabilidade dos modelos.
+5. Avaliar o desempenho utilizando bases externas.
+
+---
+
+## 💡 Competências Demonstradas
+
+- Data Mining
+- Data Cleaning
+- Análise Exploratória de Dados (EDA)
+- Machine Learning
+- Classificação Supervisionada
+- Avaliação de Modelos
+- Estatística Aplicada
+- Python
+- Pandas
+- Scikit-Learn
+- Data Visualization
+- Storytelling Analítico
+
+---
+
+## 📈 Contribuição do Projeto
+
+Este projeto demonstra a aplicação prática de técnicas de Data Mining e Machine Learning para transformar dados clínicos em informações úteis para análise preditiva e suporte à tomada de decisão baseada em dados.
+
+---
+
+## 👨‍💻 Autor
+
+**Miguel Pixe**
+
+Projeto de portfólio voltado ao estudo de Data Mining, análise exploratória e modelos preditivos aplicados à classificação de diabetes.

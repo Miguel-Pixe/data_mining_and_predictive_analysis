@@ -6,15 +6,14 @@
 
 ## 📷 Visão Geral
 
-➡️ Visão Geral
+
+<img width="2004" height="10988" alt="carbon" src="https://github.com/user-attachments/assets/aa6384f9-d55b-44d3-859a-ce3f9aeb4233" />
 
 ---
 
 ## 🔄 Pipeline
 
 **Base de pacientes → Tratamento dos dados → Análise exploratória → Treinamento dos modelos → Avaliação de desempenho → Insights**
-
-➡️ Pipeline
 
 ---
 
@@ -68,9 +67,11 @@ Analisar dados de pacientes utilizando técnicas de mineração de dados e apren
 - Análise exploratória
 - Identificação de padrões iniciais
 
-➡️ Distribuições
+<img width="600" height="400" alt="distribage" src="https://github.com/user-attachments/assets/9ffbfefe-b962-4959-aaa2-567764fbf307" />
+<img width="600" height="400" alt="distribuicaopbalance" src="https://github.com/user-attachments/assets/4f594019-fdd8-43d3-8bf1-e4056c5fd1f8" />
 
-➡️ Correlação
+
+➡️ Correlação 
 
 ➡️ Boxplots
 

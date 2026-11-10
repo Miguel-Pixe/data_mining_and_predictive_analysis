@@ -71,7 +71,8 @@ Analisar dados de pacientes utilizando técnicas de mineração de dados e apren
 <img width="600" height="400" alt="distribuicaopbalance" src="https://github.com/user-attachments/assets/4f594019-fdd8-43d3-8bf1-e4056c5fd1f8" />
 
 
-➡️ Correlação 
+➡️ Correlação <img width="600" height="400" alt="distribuicaopbalance" src="https://github.com/user-attachments/assets/7fdaec72-3b7d-4e43-b672-e6e15f7e1606" />
+
 
 ➡️ Boxplots
 

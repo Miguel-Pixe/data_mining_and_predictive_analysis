@@ -71,10 +71,17 @@ Analisar dados de pacientes utilizando técnicas de mineração de dados e apren
 <img width="600" height="400" alt="distribuicaopbalance" src="https://github.com/user-attachments/assets/4f594019-fdd8-43d3-8bf1-e4056c5fd1f8" />
 
 
-➡️ Correlação <img width="600" height="400" alt="distribuicaopbalance" src="https://github.com/user-attachments/assets/7fdaec72-3b7d-4e43-b672-e6e15f7e1606" />
+➡️ Correlação 
 
 
-➡️ Boxplots
+
+➡️ Boxplots<img width="600" height="400" alt="bloxpotbmi" src="https://github.com/user-attachments/assets/0b0d5f0a-bacd-4887-bbd7-0edf13e8ea44" />
+
+<img width="600" height="400" alt="boxplotage" src="https://github.com/user-attachments/assets/572313ff-68d2-4b6f-b9b1-9b1ddbfbdaab" />
+
+<img width="600" height="400" alt="boxplotglucose" src="https://github.com/user-attachments/assets/ccbd0edb-3c3d-4392-b500-6f4caefbc60a" />
+
+
 
 ### Modelagem Preditiva
 
@@ -111,7 +118,8 @@ Analisar dados de pacientes utilizando técnicas de mineração de dados e apren
 
 **Proposta:** avaliar novos ajustes e estratégias para melhoria do desempenho.
 
-➡️ Matriz de Confusão
+➡️ Matriz de Confusão<img width="800" height="600" alt="matrizcorr" src="https://github.com/user-attachments/assets/0242b67e-f8a3-450f-a0b4-a20d02c9dc76" />
+
 
 ---
 
@@ -124,6 +132,8 @@ Analisar dados de pacientes utilizando técnicas de mineração de dados e apren
 **Proposta:** validar o desempenho utilizando novas amostras e diferentes cenários.
 
 ➡️ Comparação dos Modelos
+<img width="1370" height="600" alt="comparacaometricas" src="https://github.com/user-attachments/assets/bddacb9f-d173-4303-a2fa-c488efe6d95b" />
+
 
 ➡️ Curva ROC
 

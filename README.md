@@ -1,211 +1,43 @@
-# 🩺 Diabetes | Data Mining e Análise Preditiva
+# Data Mining and Predictive Analysis
 
-> Aplicação de técnicas de Data Mining e Machine Learning para análise de dados clínicos e comparação de modelos preditivos voltados à classificação de diabetes.
+Este projeto mostra, na prática, como transformar dados brutos em informação útil e em previsões. Ele foi feito com fins de estudo e aprendizado.
 
----
+## O que é mineração de dados?
 
-## 📷 Visão Geral
+Mineração de dados (*data mining*) é o processo de explorar grandes conjuntos de dados para encontrar padrões, tendências e relações que não são óbvios à primeira vista. É como procurar pistas escondidas em uma planilha enorme.
 
+## O que é análise preditiva?
 
-<img width="2004" height="10988" alt="carbon" src="https://github.com/user-attachments/assets/aa6384f9-d55b-44d3-859a-ce3f9aeb4233" />
+Análise preditiva (*predictive analysis*) usa esses padrões para fazer previsões sobre o futuro. Por exemplo: com base em dados de vendas passadas, estimar quanto uma loja vai vender no próximo mês. Para isso, o computador "aprende" com exemplos antigos usando modelos de *machine learning*.
 
----
+## O que este projeto faz
 
-## 🔄 Pipeline
+O código deste repositório segue as etapas abaixo:
 
-**Base de pacientes → Tratamento dos dados → Análise exploratória → Treinamento dos modelos → Avaliação de desempenho → Insights**
+1. **Coleta dos dados:** carregamos o conjunto de dados [nome ou fonte do dataset].
+2. **Limpeza:** corrigimos problemas como valores ausentes, repetidos ou inconsistentes, porque dados bagunçados geram resultados ruins.
+3. **Análise exploratória:** usamos estatísticas e gráficos para entender o comportamento dos dados e descobrir relações entre as variáveis.
+4. **Preparação:** transformamos os dados para que o modelo consiga usá-los e separamos uma parte para treino e outra para teste.
+5. **Modelagem:** treinamos o(s) modelo(s) [liste os algoritmos usados, ex.: regressão, árvore de decisão, k-means].
+6. **Avaliação:** medimos o quanto o modelo acerta usando [métricas usadas, ex.: acurácia, erro médio], testando com dados que ele ainda não tinha visto.
 
----
+## Como rodar o projeto
 
-## 🎯 Problema de Negócio
+1. Baixe o repositório:
 
-Como utilizar características clínicas de pacientes para identificar padrões associados ao diabetes e avaliar quais modelos preditivos apresentam melhor desempenho na classificação dos casos?
+```bash
+git clone https://github.com/Miguel-Pixe/data_mining_and_predictive_analysis.git
+```
 
----
+2. Instale o que for necessário ([Python ou R] e as bibliotecas usadas).
+3. Abra e execute o arquivo principal: [nome do arquivo ou notebook].
 
-## 📌 Objetivo
+## O que você vai encontrar aqui
 
-Analisar dados de pacientes utilizando técnicas de mineração de dados e aprendizado de máquina para identificar padrões relevantes e comparar o desempenho de diferentes modelos de classificação.
+- Código com cada etapa do processo explicada;
+- Gráficos que ajudam a entender os dados;
+- Resultados e conclusões sobre o que foi descoberto: [resuma em 1 ou 2 frases].
 
----
+## Autor
 
-## 🛠️ Ferramentas Utilizadas
-
-- Python
-- Pandas
-- NumPy
-- Scikit-Learn
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
-- GitHub
-
----
-
-## ❓ Perguntas Respondidas
-
-### Exploração dos Dados
-
-- Como as variáveis clínicas estão distribuídas?
-- Existem diferenças relevantes entre pacientes com e sem diabetes?
-- Quais atributos possuem maior influência nos resultados?
-
-### Modelagem Preditiva
-
-- Qual modelo apresentou melhor desempenho?
-- Qual algoritmo apresentou melhor equilíbrio entre precisão e generalização?
-- Como as métricas variam entre os modelos testados?
-
----
-
-## 📊 Análises Realizadas
-
-### Data Mining
-
-- Inspeção da qualidade dos dados
-- Tratamento e preparação das variáveis
-- Análise exploratória
-- Identificação de padrões iniciais
-
-<img width="600" height="400" alt="distribage" src="https://github.com/user-attachments/assets/9ffbfefe-b962-4959-aaa2-567764fbf307" />
-<img width="600" height="400" alt="distribuicaopbalance" src="https://github.com/user-attachments/assets/4f594019-fdd8-43d3-8bf1-e4056c5fd1f8" />
-
-
-➡️ Correlação 
-
-
-
-➡️ Boxplots<img width="600" height="400" alt="bloxpotbmi" src="https://github.com/user-attachments/assets/0b0d5f0a-bacd-4887-bbd7-0edf13e8ea44" />
-
-<img width="600" height="400" alt="boxplotage" src="https://github.com/user-attachments/assets/572313ff-68d2-4b6f-b9b1-9b1ddbfbdaab" />
-
-<img width="600" height="400" alt="boxplotglucose" src="https://github.com/user-attachments/assets/ccbd0edb-3c3d-4392-b500-6f4caefbc60a" />
-
-
-
-### Modelagem Preditiva
-
-- Treinamento dos algoritmos
-- Comparação de desempenho
-- Avaliação das métricas
-- Seleção do melhor modelo
-
-➡️ Modelos
-
-➡️ Métricas
-
----
-
-## 🔍 Principais Achados
-
-### 1. Os dados apresentam padrões relevantes?
-
-**Resultado:** foram identificadas diferenças entre grupos de pacientes nas variáveis analisadas.
-
-**Interpretação:** os dados apresentam potencial para utilização de técnicas de classificação.
-
-**Proposta:** aprofundar a investigação das variáveis com maior influência nas previsões.
-
-➡️ Variáveis Importantes
-
----
-
-### 2. Os modelos conseguem identificar pacientes de risco?
-
-**Resultado:** os algoritmos foram capazes de diferenciar perfis distintos de pacientes.
-
-**Interpretação:** existe informação suficiente nos dados para apoiar modelos preditivos.
-
-**Proposta:** avaliar novos ajustes e estratégias para melhoria do desempenho.
-
-➡️ Matriz de Confusão<img width="800" height="600" alt="matrizcorr" src="https://github.com/user-attachments/assets/0242b67e-f8a3-450f-a0b4-a20d02c9dc76" />
-
-
----
-
-### 3. Existe um modelo com desempenho superior?
-
-**Resultado:** os modelos foram comparados com base em métricas de classificação.
-
-**Interpretação:** a escolha do melhor modelo depende não apenas da acurácia, mas também da consistência dos resultados.
-
-**Proposta:** validar o desempenho utilizando novas amostras e diferentes cenários.
-
-➡️ Comparação dos Modelos
-<img width="1370" height="600" alt="comparacaometricas" src="https://github.com/user-attachments/assets/bddacb9f-d173-4303-a2fa-c488efe6d95b" />
-
-
-➡️ Curva ROC
-
----
-
-## 📖 Storytelling
-
-### Etapa 1: Compreensão do Problema
-
-O projeto inicia com a definição do problema e entendimento do contexto dos dados.
-
-### Etapa 2: Exploração dos Dados
-
-Investigação das variáveis para identificação de padrões, tendências e possíveis relações.
-
-➡️ EDA
-
-### Etapa 3: Construção dos Modelos
-
-Aplicação e treinamento de diferentes algoritmos de Machine Learning.
-
-➡️ Treinamento
-
-### Etapa 4: Avaliação dos Resultados
-
-Comparação do desempenho utilizando métricas de classificação.
-
-➡️ Resultados
-
-### Etapa 5: Geração de Insights
-
-Transformação dos resultados obtidos em conclusões e recomendações analíticas.
-
-➡️ Insights
-
----
-
-## 🚀 Recomendações e Próximos Passos
-
-1. Realizar engenharia de atributos para ampliar o potencial explicativo dos dados.
-2. Testar novos algoritmos e técnicas de otimização.
-3. Aplicar validação cruzada para aumentar a robustez da avaliação.
-4. Investigar métodos de interpretabilidade dos modelos.
-5. Avaliar o desempenho utilizando bases externas.
-
----
-
-## 💡 Competências Demonstradas
-
-- Data Mining
-- Data Cleaning
-- Análise Exploratória de Dados (EDA)
-- Machine Learning
-- Classificação Supervisionada
-- Avaliação de Modelos
-- Estatística Aplicada
-- Python
-- Pandas
-- Scikit-Learn
-- Data Visualization
-- Storytelling Analítico
-
----
-
-## 📈 Contribuição do Projeto
-
-Este projeto demonstra a aplicação prática de técnicas de Data Mining e Machine Learning para transformar dados clínicos em informações úteis para análise preditiva e suporte à tomada de decisão baseada em dados.
-
----
-
-## 👨‍💻 Autor
-
-**Miguel Pixe**
-
-Projeto de portfólio voltado ao estudo de Data Mining, análise exploratória e modelos preditivos aplicados à classificação de diabetes.
+Feito por [Miguel-Pixe](https://github.com/Miguel-Pixe).

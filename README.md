@@ -148,22 +148,26 @@ Os gráficos abaixo representam as visualizações geradas pelo código durante 
 
 ### Análise Exploratória
 
-**Distribuição das variáveis numéricas**
+**Distribuição de idade, imc e glicose**
+<img width="600" height="400" alt="distribage" src="https://github.com/user-attachments/assets/f46f435c-fd83-4b8f-a7fe-6490a29e8128" />
+<img width="600" height="400" alt="bmi(imc)" src="https://github.com/user-attachments/assets/34497e38-b900-41a9-9a16-7cb78ecc9ded" />
+<img width="600" height="400" alt="bloodglucoselevel" src="https://github.com/user-attachments/assets/383d02b1-bb18-47b4-b091-a2b5e85b7cb8" />
 
+
+
+**Distribuições de bloxpots**
+
+<img width="600" height="400" alt="bloxpotbmi" src="https://github.com/user-attachments/assets/d02001f8-82e3-4785-95ed-4d6112b6c8aa" />
+<img width="600" height="400" alt="boxplotage" src="https://github.com/user-attachments/assets/35472aea-033b-4122-8eaf-a7fe82b5377d" />
+<img width="600" height="400" alt="boxplotglucose" src="https://github.com/user-attachments/assets/99e3f2af-1af6-4c36-b061-e401ba7113ab" />
+
+**Distribuição de valores para avaliar possível necessidade de balanceamento**
 <!-- Inserir os histogramas de idade, IMC e glicose -->
-![Distribuição das variáveis numéricas](graficos/distribuicao_variaveis.png)
-
-**Distribuição de hipertensão**
-
-![Distribuição de hipertensão](graficos/distribuicao_hipertensao.png)
-
-**Identificação de outliers**
-
-![Boxplots das variáveis numéricas](graficos/boxplots.png)
+<img width="600" height="400" alt="distribuicaopbalance" src="https://github.com/user-attachments/assets/cd0fff99-0032-40fe-8c0d-90ce9672d5d2" />
 
 **Matriz de correlação**
+<img width="800" height="600" alt="matrizcorr" src="https://github.com/user-attachments/assets/910d40ea-e868-4ee0-a64a-8e713ce4f574" />
 
-![Matriz de correlação](graficos/matriz_correlacao.png)
 
 ### Comparação dos Modelos
 
@@ -172,11 +176,27 @@ O projeto também gera dois gráficos comparativos:
 - Métricas de classificação: Acurácia, Precisão, Recall, F1-Score e Especificidade.
 - Métricas AUC: ROC-AUC e PR-AUC.
 
-![Comparação dos modelos](graficos/comparacao_modelos.png)
+
+<img width="1370" height="600" alt="comparacaometricas" src="https://github.com/user-attachments/assets/2bb63524-7783-4c26-a4ad-df5e04326194" />
+
 
 ### Importância das Variáveis
 
 O código também apresenta as 10 variáveis mais importantes de cada modelo, organizadas em tabelas no terminal.
+
+## 🏁 Conclusão
+
+O projeto permitiu desenvolver um processo de análise e classificação de dados aplicado à identificação de padrões associados ao diabetes.
+
+Ao longo do desenvolvimento, foram realizadas etapas de análise exploratória, preparação dos dados, balanceamento das classes e treinamento de três algoritmos de Machine Learning: Decision Tree, Random Forest e XGBoost.
+
+A comparação entre os modelos, utilizando métricas como Precisão, Recall, F1-Score, ROC-AUC e PR-AUC, permitiu avaliar diferentes aspectos do desempenho de cada algoritmo, com atenção especial à capacidade de identificar corretamente os pacientes pertencentes à classe positiva (diabetes).
+
+**O modelo considerado de melhor desempenho é XGboost que apresenta a maior PR-AUC(0.876)**, conforme o critério de seleção definido no projeto. Essa escolha é especialmente relevante em uma base de dados desbalanceada, na qual a identificação da classe minoritária merece atenção.
+
+Além disso, a análise da importância das variáveis permitiu identificar quais características tiveram maior contribuição nas previsões realizadas pelos modelos.
+
+Dessa forma, o projeto alcançou seu objetivo de construir e comparar modelos preditivos, demonstrando como técnicas de Machine Learning podem auxiliar na identificação de padrões relacionados ao diabetes e contribuir para estudos voltados à prevenção e análise de riscos.
 
 ## 💻 Como Executar o Projeto
 

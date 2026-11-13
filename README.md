@@ -149,6 +149,7 @@ Os gráficos abaixo representam as visualizações geradas pelo código durante 
 ### Análise Exploratória
 
 **Distribuição de idade, imc e glicose**
+
 <img width="600" height="400" alt="distribage" src="https://github.com/user-attachments/assets/f46f435c-fd83-4b8f-a7fe-6490a29e8128" />
 <img width="600" height="400" alt="bmi(imc)" src="https://github.com/user-attachments/assets/34497e38-b900-41a9-9a16-7cb78ecc9ded" />
 <img width="600" height="400" alt="bloodglucoselevel" src="https://github.com/user-attachments/assets/383d02b1-bb18-47b4-b091-a2b5e85b7cb8" />
